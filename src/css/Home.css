@@ -1,0 +1,15 @@
+.homePage {
+    grid-template-rows: 'auto';
+    display: 'grid';
+    background-color: #0A1929;
+    color: #90C9F9;
+    min-height: 100vh;
+}
+
+.worldContainer {
+    padding-top: 1vh;
+    padding-right: 1vw;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    justify-self: center;
+}

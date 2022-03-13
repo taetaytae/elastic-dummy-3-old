@@ -1,0 +1,20 @@
+canvas{
+    border:'1px solid #000000';
+    width:200;
+    height:200;
+}
+
+#scene-container {
+    /* tell our scene container to take up the full page */
+    position: relative;
+    justify-self: center;
+    border:'1px solid #000000';
+    width:80vw;
+    height:80vh;
+  
+    /*
+      Set the container's background color to the same as the scene's
+      background to prevent flashing on load
+    */
+    background-color: black;
+  }
