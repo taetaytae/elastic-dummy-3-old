@@ -28,7 +28,6 @@ class Home extends React.Component {
         }
 
         this.toggleCanvasRender = this.toggleCanvasRender.bind(this);
-        // this.handleMouseMove = this.handleMouseMove.bind(this);
         this.setCoordinates = this.setCoordinates.bind(this);
 
     }
@@ -37,19 +36,6 @@ class Home extends React.Component {
         this.setState({renderCanvas: !this.state.renderCanvas})
         console.log('render state: ', this.state.renderCanvas);
     }
-
-    // handleMouseMove(e){
-
-    //     const ndcX = (e.clientX/e.view.innerHeight) * 2-1;
-    //     const ndcY = -(e.clientY/e.view.innerWidth) * 2+1;
-
-    //     // console.log('x: ', e.nativeEvent.offsetX, ' y: ', e.nativeEvent.offsetY);
-    //     // console.log('x: ', (e.clientX/e.view.innerHeight) * 2-1);
-    //     // console.log('y: ', -(e.nativeEvent.clientY/e.view.innerWidth) * 2+1);
-    //     console.log(e)
-    //     this.setState({x: ndcX, y: ndcY});
-
-    // }
 
     setCoordinates(x, y){
         this.setState({x: x, y: y});

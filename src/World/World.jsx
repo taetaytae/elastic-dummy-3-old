@@ -8,10 +8,6 @@ import Scene from './components/Scene.jsx';
 import { Suspense } from 'react';
 
 class World extends React.Component {
-    // constructor(props){
-    //     super(props);
-    // }
-
     render(){
         return(
             <div id='scene-container'>
