@@ -4,5 +4,5 @@ An interactive audiovisual webpage showcasing spatial HRTF panning through a 3D 
 
 Handlebar test.
 
-Still a work in progress, the project's current barebones state can be seen here (works better with headphones): 
+Still a work in progress, the project's current barebones state can be seen here (works better with headphones): https://vimeo.com/687757763
 
